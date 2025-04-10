@@ -1,0 +1,11 @@
+Create Virtual environment
+python -m venv proyectoIAEnv
+
+Activate environment:
+>envName\Scripts\activate
+
+Activar en VS:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+Para instalar paquetes:
+pip install -r requirements.txt
